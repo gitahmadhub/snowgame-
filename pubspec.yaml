@@ -1,0 +1,37 @@
+name: snowman
+description: "A snowman game Flutter project."
+
+publish_to: 'none' # This line prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0' # Update the SDK version to match your Flutter version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.8
+
+  # Add any other dependencies your project needs here
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/snowman_part1.jpeg
+    - assets/images/snowman_part2.jpeg
+    - assets/images/snowman_part3.jpeg
+    - assets/images/snowman_part4.jpeg
+    - assets/images/snowman_part5.jpeg
+    - assets/images/snowman_part6.jpeg
+    - assets/images/snowman_part7.jpeg
+    - assets/images/snowman_part8.jpeg
+    - assets/images/snowman_part9.jpeg
+
+
